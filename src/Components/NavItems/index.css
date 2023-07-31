@@ -1,0 +1,203 @@
+.navbar {
+  height: 100vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  justify-content: space-between;
+  box-shadow: "1px 2px 9px #505887";
+}
+
+.navbar-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-Item {
+  display: flex;
+  margin: 5px;
+}
+
+.icons {
+  height: 25px;
+  width: 25px;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+.nav-text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #505887;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.rule {
+  color: #505887;
+  width: 100px;
+  height: 2px;
+  text-align: left;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.profile-name {
+  color: #505887;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.profile-mail {
+  color: #505887;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto";
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.profile-container {
+  padding-left: 10px;
+}
+
+.logout {
+  border: none;
+  background-color: transparent;
+}
+
+.logout-container {
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.accounts-head {
+  color: #343c6a;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.add-trans-button {
+  border: none;
+  background-color: #2d60ff;
+  height: 30px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-right: 0px;
+}
+
+.button-text {
+  color: white;
+}
+
+.plus {
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  width: 83vw;
+  margin: 10px;
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #f7f0f0;
+  height: 88vh;
+  width: 83vw;
+}
+
+.credit-image {
+  height: 100px;
+  width: 120px;
+}
+
+.cards {
+  height: 100px;
+  width: 400px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.cards-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.credit-amount {
+  color: #16dbaa;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.credit-text {
+  color: #718ebf;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.debit-amount {
+  color: #fe5c73;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.last-transaction {
+  color: #343c6a;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto";
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 15px;
+}
+
+.activeText {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #2d60ff;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.nav-buttons {
+  border: none;
+  background-color: transparent;
+}
