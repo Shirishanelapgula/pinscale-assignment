@@ -6,7 +6,7 @@ import LastTransactions from "../LastTransactions";
 import MiniTabs from "../MiniTabs";
 import CreditAndDebit from "../CreditAndDebit";
 import Profile from "../Profile";
-
+import LoginForm from "../LoginForm";
 import "./index.css";
 
 const tabs = [
