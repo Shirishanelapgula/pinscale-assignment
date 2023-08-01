@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Cookies from "js-cookie";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import {
   BgContainer,
   CardContainer,
@@ -12,7 +12,7 @@ import {
   InputField,
   LoginWelcomeHeading,
   InputContainer,
-} from "./styledComponents";
+} from "./StyledComponents";
 
 class LoginForm extends Component {
   state = {
@@ -104,7 +104,7 @@ class LoginForm extends Component {
     const { showSubmitError, errorMsg } = this.state;
     const token = Cookies.get("jwt_token");
     if (token !== undefined) {
-      return <Redirect to="/" />;
+      return <Navigate to="/" />;
     }
     return (
       <BgContainer>

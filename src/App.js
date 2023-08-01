@@ -1,9 +1,15 @@
-import Dashboard from "./Components/Dashboard";
+import { BrowserRouter, Routes, Navigate, Route } from "react-router-dom";
+
+import LoginForm from "./Components/LoginForm";
 
 import "./App.css";
 
-function App() {
-  return <Dashboard />;
-}
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route exact path="/login" component={LoginForm} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;

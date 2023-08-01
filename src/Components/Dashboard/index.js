@@ -282,59 +282,8 @@ class Dashboard extends Component {
     }
 
     return (
-      <div className="main-container">
-        <div className="navbar">
-          <div className="top-nav">
-            <div className="logo-container">
-              <img
-                src="https://res.cloudinary.com/dqfmzzr5g/image/upload/v1690707804/Group_kcuz0m.png"
-                alt="logo"
-                className="logo"
-              />
-              <p className="logo-head">
-                <span className="logo-head logo-span-text">Money</span> patterns
-              </p>
-            </div>
-            <div className="navbar-contents">
-              <ul className="list">
-                {tabs.map((each) => (
-                  <NavItems
-                    key={each.id}
-                    details={each}
-                    activeTab={activeTab}
-                    onChangeTab={this.onChangeTab}
-                  />
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="profile">
-            <img
-              src="https://res.cloudinary.com/dqfmzzr5g/image/upload/v1690712974/Avatar_ti6lya.png"
-              alt="avatar"
-              className="avatar"
-            />
-            <div className="profile-content">
-              <div className="logout-container">
-                <p className="profile-name">{profile.name}</p>
-                <button type="button" className="logout">
-                  <img
-                    src="https://res.cloudinary.com/dqfmzzr5g/image/upload/v1690714053/log-out-01_yljke3.png"
-                    alt="logout"
-                  />
-                </button>
-              </div>
-              <p className="profile-mail">{profile.email}</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="top-bar">
-            {this.renderDashboardText()}
-            {this.ReactPopUp()}
-          </div>
-          <div className="bottom-container">{renderContent}</div>
-        </div>
+      <div>
+        <LoginForm />
       </div>
     );
   }
